@@ -5,7 +5,7 @@
 
 .navbar {
   position: fixed;
-  top: 10px;
+  top: 0px;
   max-width: 100%;
   min-width: 100%;
   height: 60px;
@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: gray;
 }
 .navbar div {
   display: flex;
@@ -34,6 +35,7 @@
 .bacground nav {
   min-width: 1200px;
   height: 600px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -82,4 +84,35 @@
 }
 .bacground nav img {
   max-width: 40%;
+}
+
+.bacground1 nav {
+  max-width: 1200px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bacground1 nav .net a {
+  color: #217BF4;
+  border: none;
+}
+.bacground1 nav .net {
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.bacground1 nav .net .svg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bacground1 nav .imgs {
+  position: relative;
+  left: 100px;
 }/*# sourceMappingURL=style.css.map */
