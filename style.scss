@@ -385,3 +385,57 @@ $colg:#8C8C8C;
         }
     }
 }
+.bacground5{
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5F0FD;
+    nav{
+        min-width: 1200px;
+        height: 500px;
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+        .getour{
+            a{
+                color: #217BF4;
+                font-weight: bold;
+            }
+            width: 350px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            row-gap: 20px;
+            p{
+                color: $colg;
+            }
+            .divapp{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-left: -18px;
+                gap:10px;
+                .appstore{
+                    width: 150px;
+                    height: 95px;
+                }
+                .playstore{
+                    width: 130px;
+                    height: 50px;
+                    background-image: url(./image\ 289.png);
+                    background-size: cover;
+                    border: none;
+                    border-radius: 7px;
+                }
+            }
+        }
+        img{
+            width: 600px;
+            height: 470px;
+        }
+    }
+}
