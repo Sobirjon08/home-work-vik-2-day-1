@@ -236,4 +236,51 @@
 }
 .bacground2 nav .div3 button:active p {
   color: #131313;
+}
+
+.bacground3 {
+  max-width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+.bacground3 nav {
+  min-width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.bacground3 nav a {
+  color: #217BF4;
+}
+.bacground3 nav .count {
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 50px;
+}
+.bacground3 nav .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px;
+}
+.bacground3 nav .item1 .mem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+}
+.bacground3 nav .item1 .mem p {
+  color: #8C8C8C;
 }/*# sourceMappingURL=style.css.map */
