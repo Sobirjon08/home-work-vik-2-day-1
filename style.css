@@ -115,4 +115,125 @@
 .bacground1 nav .imgs {
   position: relative;
   left: 100px;
+}
+
+.bacground2 {
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bacground2 nav {
+  min-width: 1150px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bacground2 nav .div1 {
+  max-width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  box-shadow: 0px 10px 10px rgba(155, 248, 233, 0.281);
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+.bacground2 nav .div1 p {
+  color: #8C8C8C;
+}
+.bacground2 nav .div1 .rayting {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div1 .member {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div1 .member p {
+  color: #131313;
+}
+.bacground2 nav .div1 .join {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div1 a {
+  color: #217BF4;
+}
+.bacground2 nav .div2 {
+  max-width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  border: solid 1px #8C8C8C;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+.bacground2 nav .div2 p {
+  color: #8C8C8C;
+}
+.bacground2 nav .div2 .awww {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div2 .best {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div2 .best p {
+  color: #131313;
+}
+.bacground2 nav .div2 .goto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bacground2 nav .div2 .goto a {
+  color: #131313;
+}
+.bacground2 nav .div3 {
+  max-width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.bacground2 nav .div3 p {
+  color: #8C8C8C;
+}
+.bacground2 nav .div3 button {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: #217BF4;
+  box-shadow: 0px 10px 10px rgba(155, 248, 233, 0.281);
+}
+.bacground2 nav .div3 button p {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.bacground2 nav .div3 button:hover {
+  background: #131313;
+}
+.bacground2 nav .div3 button:active {
+  background: #f1f1f1;
+}
+.bacground2 nav .div3 button:active p {
+  color: #131313;
 }/*# sourceMappingURL=style.css.map */
